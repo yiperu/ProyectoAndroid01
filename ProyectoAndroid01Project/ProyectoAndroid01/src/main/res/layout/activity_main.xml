@@ -7,31 +7,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:background="#FF0000">
+    android:background="#ffffa117">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|top">
+            android:layout_gravity="center_horizontal|top"
+            android:id="@+id/linearLayout">
 
             <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hello_world"
+            android:id="@+id/textView"
+                android:textColor="@color/colorRojo" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
             android:id="@+id/textView" />
 
             <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello_world"
+            android:text="@string/apellido"
             android:id="@+id/textView" />
 
             <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            android:id="@+id/textView" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profesion"
+                android:id="@+id/textView" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -41,7 +49,7 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="222dp"
                     android:id="@+id/imageView"
                     android:src="@drawable/scarlett"
                     android:layout_centerVertical="true"
@@ -51,12 +59,69 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="New Button"
-                    android:id="@+id/button" />
+                    android:id="@+id/boton001"
+                    android:textColor="@color/colorAzul" />
 
             </LinearLayout>
 
 
         </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="14dp">
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2" />
+        </TableRow>
+    </TableLayout>
 
 
 </RelativeLayout>

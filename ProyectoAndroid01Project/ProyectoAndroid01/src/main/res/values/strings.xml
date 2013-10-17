@@ -4,5 +4,9 @@
     <string name="app_name">ProyectoAndroid01</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Proyecto Android... !!!!</string>
-
+    <string name="nombre">Henry</string>
+    <string name="apellido">Ambicho_Trujillo</string>
+    <string name="profesion">Ing Sistemas</string>
+    <string name="cadenaBoton">Probando Titulo al Boton</string>
+    <string name="htmls"><b>Negrita</b><i>Italica</i><u>Underline</u></string>
 </resources>
